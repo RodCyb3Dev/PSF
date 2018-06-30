@@ -170,13 +170,10 @@ class SignIn extends Component {
                         <img alt="nba logo" src="/images/social-logos/google plus.png"/>
                     </a>
                     <a className="hvr-pulse-grow github social-icon" onClick={this.githubAuth} title="Login with Github">
-                        <img alt="nba logo" src="/images/social-logos/twitter.png"/>
-                    </a>
-                    <a className="hvr-pulse-grow twitter social-icon" onClick={this.twitterAuth} title="Login with Twitter">
                         <img alt="nba logo" src="/images/social-logos/github.png"/>
                     </a>
-                    <a className="hvr-pulse-grow linkedin social-icon" onClick={this.facebookAuth} title="Login with Facebook">
-                        <img alt="nba logo" src="/images/social-logos/facebook.png"/>
+                    <a className="hvr-pulse-grow twitter social-icon" onClick={this.twitterAuth} title="Login with Twitter">
+                        <img alt="nba logo" src="/images/social-logos/twitter.png"/>
                     </a>
                 </div>
             </div>
